@@ -1,0 +1,33 @@
+.cart-wrapper {
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border: 1px solid black;
+	background-color: white;
+	top: 90px;
+	right: 6rem;
+	z-index: 5;
+
+
+	.cart-title {
+		font-size: 1rem;
+		margin: .5rem auto;
+	}
+
+	.cart-items {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.total-coast {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		font-size: 1.4rem;
+	}
+
+	button {
+		margin-top: auto;
+	}
+}
